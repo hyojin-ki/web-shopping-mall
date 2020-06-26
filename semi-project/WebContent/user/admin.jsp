@@ -12,8 +12,20 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+<%@ include file="../common/navibar.jsp"%>
 <div class="container">  
-
+	<div class="row text-center">
+		<div class="col-4">
+			<h3>상품등록</h3>
+		</div>
+		<div class="col-4">
+			<h3>배송관리</h3>
+		</div>
+		<div class="col-4">
+			<h3>통계</h3>
+		</div>
+	</div>
 </div>
+<%@ include file="../common/footer.jsp"%>
 </body>
 </html>
